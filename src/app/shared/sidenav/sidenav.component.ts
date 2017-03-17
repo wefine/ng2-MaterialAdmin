@@ -9,7 +9,7 @@ import { DashboardComponent } from '../../components/dashboard/dashboard.compone
 })
 export class SidenavComponent implements OnInit {
 
-    name: String = 'App';
+    name: String = 'Material Admin';
 
     constructor() { }
 
