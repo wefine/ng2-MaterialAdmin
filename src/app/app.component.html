@@ -1,0 +1,9 @@
+<md-sidenav-container class="example-container">
+    <toolbar [sidenav]="sidenav" [title]="title"></toolbar>
+    <md-sidenav class.sm="sidenav-sm" class.xs="sidenav-xs" class.md="sidenav.md" [mode]="mode" [opened]="opened" #sidenav class="z-depth-3 example-sidenav">
+        <sidenav></sidenav>
+    </md-sidenav>
+    <div class="example-sidenav-content">
+        <dashboard></dashboard>
+    </div>
+</md-sidenav-container>
