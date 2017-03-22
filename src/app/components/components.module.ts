@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { PerfectScrollbarModule } from 'angular2-perfect-scrollbar';
+import { ChartsModule } from 'ng2-charts';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 
@@ -17,6 +18,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
         FlexLayoutModule,
         CommonModule,
         PerfectScrollbarModule,
+        ChartsModule
     ],
     exports: [
         DashboardComponent
