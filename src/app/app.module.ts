@@ -12,6 +12,7 @@ import { ComponentsModule } from './components/components.module';
 import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 import 'hammerjs';
+import 'Chart.js';
 
 const PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
