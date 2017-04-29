@@ -78,5 +78,17 @@
                 </md-card>
             </div>
         </div>
+        <div #chartsRow fxLayoutWrap fxLayout.gt-md="row" fxLayout="column" style="display: block;">
+            <canvas baseChart 
+                    fxFlex="50"
+                    [datasets]="lineChartData" 
+                    [labels]="lineChartLabels" 
+                    [options]="lineChartOptions"
+                    [colors]="lineChartColors" 
+                    [legend]="lineChartLegend" 
+                    [chartType]="lineChartType" 
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+        </div>
     </perfect-scrollbar>
 </div>
