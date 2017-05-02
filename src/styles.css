@@ -39,6 +39,11 @@ dashboard,
 
 .example-sidenav {
     min-width: 15% !important;
+    background-color: #383838;
+}
+
+.sidenav-toolbar {
+    background-color: transparent !important;
 }
 
 .sidenav-sm {
